@@ -11,4 +11,31 @@ Ao final deste projeto, o aluno deverá ser capaz de:
 - Utilizar Arrow Functions;
 - Criar e manipular objetos;
 - Trabalhar com Array de objetos;
-- Entender o uso de
+- Entender o uso de 'this';
+- Converter objetos para JSON e JSON para objetos;
+- Criar classe;
+- Utilizar 'construtor'
+- Instanciar objetos com 'new';
+- Criar atributos e métodos;
+- Compreender os conceitos iniciais de encapsulamento, herança e polimorfismo;
+
+## Como executar
+
+Abra o terminal na pasta do projeto e execute:
+
+```bash
+    node nome-do-arquivo.jd
+```
+
+## 1. Funções 
+
+
+Funções permitem organizar e reutilizar códigos.
+
+```javascript
+    function saudacao(){
+        console.log("Olá!);
+    }
+    saudacao();
+```
+
