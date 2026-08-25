@@ -1,5 +1,5 @@
-const aluno = `{"nome": "Pablo", "nota": 8}`;
+const aluno = { nome: "Pablo", nota: 8 };
 
-const json = JSON.parse(aluno);
-console.log(json); //´{nome: "Pablo", nota: 8}
-console.log(json.nome);
+const json = JSON.stringify(aluno); //converte para string
+
+console.log(json);
