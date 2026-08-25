@@ -2,7 +2,7 @@ class Pessoa{
     #nome;
 
     constructor(nome){
-        this.nome = nome;
+        this.#nome = nome;
     }
 
     get nome(){
